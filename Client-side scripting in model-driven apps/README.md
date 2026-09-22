@@ -12,14 +12,14 @@ Given a generic requirement, AI will happily write Dataverse code using deprecat
 
 | Area | Instructions | Templates |
 | --- | --- | --- |
-| Client-side scripting (model-driven apps) | [`instructions/dataverse-client-side-javascript.md`](instructions/dataverse-client-side-javascript.md) | [`templates/XTemplate_TableName_FormRules.js`](templates/XTemplate_TableName_FormRules.js) | [`templates/XTemplate_TableName_RibbonRules.js`](templates/XTemplate_TableName_RibbonRules.js) |
+| Client-side scripting (model-driven apps) | [`instructions/dataverse-client-side-javascript.md`](instructions/dataverse-client-side-javascript.md) | Form: [`templates/XTemplate_TableName_FormRules.js`](templates/XTemplate_TableName_FormRules.js)<br>Ribbon: [`templates/XTemplate_TableName_RibbonRules.js`](templates/XTemplate_TableName_RibbonRules.js) |
 
 More areas will be added as the series continues.
 
 ## How to use it
 
 1. Copy the instructions file and templates into your repo.
-2. Replace the `abc` publisher prefix and the `Contoso` namespace with your own.
+2. Replace the `abc` publisher prefix and the `ABC` namespace with your own.
 3. Export the form XML for the form you're scripting (XrmToolBox's Form XML Editor works well) and save it alongside your JavaScript.
 4. In your agent, attach the instructions file and the form XML, then give it the requirement.
 

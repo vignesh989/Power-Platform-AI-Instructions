@@ -12,7 +12,7 @@ Given a generic requirement, AI will happily write Dataverse code using deprecat
 
 | Area | Instructions | Templates |
 | --- | --- | --- |
-| Client-side scripting (model-driven apps) | [`instructions/dataverse-client-side-javascript.md`](instructions/dataverse-client-side-javascript.md) | [`templates/XTemplate_TableName_FormRules.js`](templates/XTemplate_TableName_FormRules.js) |
+| Client-side scripting (model-driven apps) | [`instructions/dataverse-client-side-javascript.md`](instructions/dataverse-client-side-javascript.md) | [`templates/XTemplate_TableName_FormRules.js`](templates/XTemplate_TableName_FormRules.js) | [`templates/XTemplate_TableName_RibbonRules.js`](templates/XTemplate_TableName_RibbonRules.js) |
 
 More areas will be added as the series continues.
 
